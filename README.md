@@ -2,7 +2,7 @@ This repository is set up to demostrate a possible bug in Payara server 5.194. C
 
 Steps to reproduce: 
 
-1. Build to war file
+1. Build the war file
 
 2. Build the docker image: sudo docker build -t payara-clientcert-test .
 
