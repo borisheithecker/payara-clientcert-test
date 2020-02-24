@@ -1,3 +1,6 @@
 set configs.config.server-config.network-config.protocols.protocol.http-listener-2.ssl.client-auth-enabled=true
+
+create-auth-realm --classname com.sun.enterprise.security.auth.realm.certificate.CertificateRealm --property assign-groups=admin  certificate2
+
 #set configs.config.server-config.security-service.auth-realm.certificate.property.assign-groups=admin
 #

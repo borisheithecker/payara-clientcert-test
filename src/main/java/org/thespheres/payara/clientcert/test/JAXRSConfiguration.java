@@ -13,8 +13,8 @@ import javax.ws.rs.core.Application;
  */
 @DeclareRoles("admin")
 @ApplicationPath("resources")
-@CertificateAuthenticationMechanismDefinition
-@CertificateIdentityStoreDefinition(value = "certificate", assignGroups = "admin")
+//@CertificateAuthenticationMechanismDefinition
+//@CertificateIdentityStoreDefinition(value = "certificate", assignGroups = "admin")
 public class JAXRSConfiguration extends Application {
 
 }

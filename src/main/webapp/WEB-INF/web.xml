@@ -20,12 +20,12 @@
         <user-data-constraint>
             <transport-guarantee>CONFIDENTIAL</transport-guarantee>
         </user-data-constraint>        
-    </security-constraint>
+    </security-constraint>-->
     <login-config>
         <auth-method>CLIENT-CERT</auth-method>
-        <realm-name>certificate</realm-name>
+        <realm-name>certificate2 </realm-name>
     </login-config>
-    <security-role>
+<!--    <security-role>
         <role-name>admin</role-name>
     </security-role>-->
 </web-app>
